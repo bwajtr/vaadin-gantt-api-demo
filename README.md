@@ -10,6 +10,12 @@ Remember that Vaadin Charts is a Commercial Feature and a commercial Vaadin subs
 Open the project in an IDE. You can download the [IntelliJ community edition](https://www.jetbrains.com/idea/download) if you do not have a suitable IDE already.
 Once opened in the IDE, locate the `Application` class and run the main method using "Debug".
 
+You can also run the examples from command line using
+
+```
+mvn spring-boot:run
+```
+
 For more information on installing in various IDEs, see [how to import Vaadin projects to different IDEs](https://vaadin.com/docs/latest/getting-started/import).
 
 If you install the Vaadin plugin for IntelliJ, you should instead launch the `Application` class using "Debug using HotswapAgent" to see updates in the Java code immediately reflected in the browser.
@@ -29,15 +35,6 @@ You then launch the application using
 ```
 java -jar target/gantt-api-demo-1.0-SNAPSHOT.jar
 ```
-
-## Project structure
-
-- `MainLayout.java` in `src/main/java` contains the navigation setup (i.e., the
-  side/top bar and the main menu). This setup uses
-  [App Layout](https://vaadin.com/docs/components/app-layout).
-- `views` package in `src/main/java` contains the server-side Java views of your application.
-- `views` folder in `src/main/frontend` contains the client-side JavaScript views of your application.
-- `themes` folder in `src/main/frontend` contains the custom CSS styles.
 
 ## Useful links
 
