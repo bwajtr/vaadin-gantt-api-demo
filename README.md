@@ -1,7 +1,9 @@
-# GanttApiDemo
+# Gantt Api Demo
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+This repository contains a preview of the Vaadin Charts Gantt API that will become fully available in Vaadin 24.7. The API is still under development and may change before the final release.
+
+Remember that Vaadin Charts is a Commercial Feature and a commercial Vaadin subscription is required to use Charts in your project. For more information visit [Vaadin Charts Documentation](https://vaadin.com/docs/latest/components/charts)
+
 
 ## Running the application
 

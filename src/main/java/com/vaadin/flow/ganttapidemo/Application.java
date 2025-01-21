@@ -1,4 +1,4 @@
-package com.vaadin.flow;
+package com.vaadin.flow.ganttapidemo;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.theme.Theme;
